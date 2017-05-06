@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dragger2TestApp</string>
+    <string name="title_hint">Enter Title</string>
+    <string name="add_article">Add Article</string>
+    <string name="show_article">Show Article</string>
+</resources>

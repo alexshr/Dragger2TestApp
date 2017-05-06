@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_hint"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/add"
+        android:layout_below="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_article"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/show"
+        android:layout_below="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_article"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/show"
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/titleView"
+        android:id="@+id/descView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
